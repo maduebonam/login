@@ -1,0 +1,201 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: rgb(187, 187, 245);
+    color: rgb(7, 19, 19);
+}
+
+.login {
+    position: absolute;
+    height: 400px;
+    width: 320px;
+    padding: 10px;
+    background: url(background.jpg);
+    border-radius: 6px;
+    box-shadow: -20px 16px 20px;
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+    color: black;
+}
+
+.email,
+.password {
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    position: relative;
+    padding: 0 40px 0 10px;
+}
+
+input {
+    position: relative;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-bottom: 2px solid black;
+    padding: 8px;
+    width: 85%;
+    height: 50%;
+    background: transparent;
+    color: #fff;
+}
+
+ion-icon {
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    right: 40px;
+    bottom: 10px;
+}
+
+.account {
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    margin: 8px 15px 8px 15px;
+}
+
+.account p a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.account p a:hover {
+    color: black;
+}
+
+
+button {
+    background: #0171d3;
+    border: none;
+    outline: none;
+    color: white;
+    transition: all 0.8s ease;
+    cursor: pointer;
+    height: 20px;
+    width: 50%;
+    margin: 8px 15px 8px 60px;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 20px;
+
+}
+
+button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+button a:hover {
+    color: black;
+}
+
+
+button:hover {
+    background-color: #b33693;
+}
+
+.remember-forgot {
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    margin: 0 0 15px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.remember-forgot label a {
+    color: #000;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.remember-forgot label a:hover {
+    text-decoration: 2px underline solid #fff;
+}
+
+.form-link {
+    position: relative;
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+.line {
+    position: relative;
+    height: 1px;
+    width: 100%;
+    margin: 36px 0;
+    background-color: black;
+}
+
+.line::before {
+    content: 'Or';
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    color: black;
+    padding: 0 16px;
+}
+
+.media-options {
+position: relative;
+    font-size: 15px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin: 15px 20px;
+    padding: 8px 10px;
+    height: 30px;
+    width: auto;
+    background: #0171d3;
+    color: #fff;
+}
+
+.media-options span a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.media-options label a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.credit{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.credit p{
+    color: #fff;
+    font-size: 12px;
+   margin-left: 10px;
+   font-style: italic;
+   font-weight: bold;
+   margin-top: 10px;
+}
